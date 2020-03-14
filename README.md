@@ -8,34 +8,30 @@ According to the user story that came bundled with this project, the intent of t
 
 ## Screenshots
 
-![main screen of quiz](./Assets/main_screen.png)
+![example of basic webpage functionality](./Assets/Images/basic-website.png)
 
-![example of taking the quiz](./Assets/question1.png)
+![example of saving functionality](./Assets/Images/saving-functionality.png)
 
-![example of semi-functional highscore chart](./Assets/barebones_highscore.png)
+![example of fully functional javascript](./Assets/Images/javascript-example.png)
 
 ## Features
 
-- Questions and buttons generated following each button selection using javascript, with no JQuery
-- 5 selected Javascript-related questions 
-- A timer that counts down at 1/second, but which also decreases by 10 when questions are missed. 
+- Dynamically updated moment.js-powered calendar with text that persists across refreshes!
+- Date displayed will always be accurate!
+- Fun, productive-mindset-encouraging color shifts for the busy worker! 
 
 ## Link to Published Page
 
-(https://fanofstuff.github.io/Homework-4-Code-Quiz/)
-
-## Example
-
-![example of script.js](./Assets/javascript_example.png)
+(https://fanofstuff.github.io/Homework-5-Third-Party-APIs/)
 
 ## How to Use
 
-1. Open up index.html
-2. Click Start Quiz
-3. Select an option that best answers the question displayed
-4. Repeat 5 times, or until your time runs out
-5. Enter in your initials to go along with your highscore, and then press submit (WIP)
-6. View your highscores on the linked page at any time (WIP)
+1. Simply open index.html, 
+2. Type in your text into the appropriate field, 
+3. And click the save button to the right of the field! 
+
+Everything else is automatic! 
+
 ## Credits
 
 © 2019 fanofstuff
