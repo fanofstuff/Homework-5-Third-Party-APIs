@@ -1,46 +1,37 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Homework-5-Third-Party-APIs
 
-Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+This program is intended to create a self-updating day calendar of sorts. The idea here is that the user should be able to write text into the provided textareas, click on the button next to each of these textareas, and have their writing saved to localStorage. In addition, however, the page tracks the current date and hour using moment.js, dynamically updating the date it shows and the colors of the text fields in accordance with the current hour (which, admittedly, is only useful from 9am-5pm - but that, too, is on purpose). 
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+## Intended Usage
 
-## User Story
+According to the user story that came bundled with this project, the intent of this program is to create a simple day planner-esque calendar. The shifting colors of the text fields are likely intended to help the prospective user with time and task management by providing a visual aid. 
 
-```
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+## Screenshots
 
-## Acceptance Criteria
+![example of basic webpage functionality](./Assets/Images/basic-website.png)
 
-```
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+![example of saving functionality](./Assets/Images/saving-functionality.png)
 
-The following animation demonstrates the application functionality:
+![example of fully functional javascript](./Assets/Images/javascript-example.png)
 
-![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
+## Features
 
-## Review
+- Dynamically updated moment.js-powered calendar with text that persists across refreshes!
+- Date displayed will always be accurate!
+- Fun, productive-mindset-encouraging color shifts for the busy worker! 
 
-You are required to submit the following for review:
+## Link to Published Page
 
-* The URL of the deployed application.
+(https://fanofstuff.github.io/Homework-5-Third-Party-APIs/)
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+## How to Use
 
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+1. Simply open index.html, 
+2. Type in your text into the appropriate field, 
+3. And click the save button to the right of the field! 
+
+Everything else is automatic! 
+
+## Credits
+
+© 2019 fanofstuff
